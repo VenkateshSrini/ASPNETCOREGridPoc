@@ -52,7 +52,7 @@ namespace GridPoc.Controllers
                 EffectiveDate = new DateTime(2005, 2, 27),
                 ExpiryDate = new DateTime(2006, 2, 27),
                 ProcurementDate = new DateTime(2005, 3, 4),
-                NamedInsurer = "Gorga Agency",
+                NamedInsurer = "TVS and Sons",
                 AgencyID = 2222222,
                 PolicyType = "Cancelled"
             });
