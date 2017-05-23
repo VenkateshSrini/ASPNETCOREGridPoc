@@ -1,0 +1,9 @@
+D:\Venkatesh_Mob\Travelers\GridPoc\GridPoc\GridPoc\bin\Debug\netcoreapp1.1\GridPoc.deps.json
+D:\Venkatesh_Mob\Travelers\GridPoc\GridPoc\GridPoc\bin\Debug\netcoreapp1.1\GridPoc.runtimeconfig.json
+D:\Venkatesh_Mob\Travelers\GridPoc\GridPoc\GridPoc\bin\Debug\netcoreapp1.1\GridPoc.runtimeconfig.dev.json
+D:\Venkatesh_Mob\Travelers\GridPoc\GridPoc\GridPoc\bin\Debug\netcoreapp1.1\GridPoc.dll
+D:\Venkatesh_Mob\Travelers\GridPoc\GridPoc\GridPoc\obj\Debug\netcoreapp1.1\GridPoc.csprojResolveAssemblyReference.cache
+D:\Venkatesh_Mob\Travelers\GridPoc\GridPoc\GridPoc\obj\Debug\netcoreapp1.1\GridPoc.AssemblyInfo.cs
+D:\Venkatesh_Mob\Travelers\GridPoc\GridPoc\GridPoc\bin\Debug\netcoreapp1.1\GridPoc.pdb
+D:\Venkatesh_Mob\Travelers\GridPoc\GridPoc\GridPoc\obj\Debug\netcoreapp1.1\GridPoc.dll
+D:\Venkatesh_Mob\Travelers\GridPoc\GridPoc\GridPoc\obj\Debug\netcoreapp1.1\GridPoc.pdb

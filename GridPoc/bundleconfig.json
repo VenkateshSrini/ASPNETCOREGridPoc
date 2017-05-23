@@ -1,0 +1,34 @@
+﻿// Configure bundling and minification for the project.
+// More info at https://go.microsoft.com/fwlink/?LinkId=808241
+[
+  {
+    "outputFileName": "wwwroot/css/bundle.min.css",
+    // An array of relative input file paths. Globbing patterns supported
+    "inputFiles": [
+      "wwwroot/Content/JQueryUI/jquery-ui.css",
+      "wwwroot/Content/Bootstrap/bootstrap.css",
+      "wwwroot/Content/FontAwesome/font-awesome.css",
+      "wwwroot/Content/MvcGrid/mvc-grid.css",           
+      "wwwroot/Content/Shared/base.css"
+    ]
+  },
+  
+  {
+    "outputFileName": "wwwroot/js/site.min.js",
+    "inputFiles": [
+      "wwwroot/Scripts/JQuery/jquery.js",
+      "wwwroot/Scripts/JQuery/jquery.UI.block.js",
+      "wwwroot/Scripts/Bootstrap/bootstrap.js",
+      "wwwroot/Scripts/JQueryUI/jquery-ui.js",
+      "wwwroot/Scripts/MvcGrid/mvc-grid.js",
+      "wwwroot/Scripts/Shared/site.js"
+    ],
+    // Optionally specify minification options
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    },
+    // Optionally generate .map file
+    "sourceMap": false
+  }
+]

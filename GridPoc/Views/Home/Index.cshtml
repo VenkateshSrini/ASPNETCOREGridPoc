@@ -1,0 +1,34 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@using GridPoc.ViewModel
+@using NonFactors.Mvc.Grid
+@model IEnumerable<Insurance>
+<br/>
+<hr/>
+@(Html
+        .Grid(Model)
+        .Build(columns =>
+        {
+            columns.Add(model => model.PolicyNumber).Titled("Policy No.");
+            columns.Add(model => model.PolicyType).Titled("Pol Type");
+
+            columns.Add(model => model.ProcurementDate).Titled("Proc Date");
+            columns.Add(model => model.EffectiveDate).Titled("Eff Date");
+            columns.Add(model => model.ExpiryDate).Titled("Exp Date");
+            columns.Add(model => model.AgencyID).Titled("Agency");
+            columns.Add(model => model.NamedInsurer).Titled("Named Insured");
+        })
+        .Filterable()
+        .Sortable()
+        .Pageable(pager => { pager.PagesToDisplay = 2;
+            pager.RowsPerPage = 2;
+            pager.CurrentPage = 1;
+        }
+
+
+    )
+
+ )
+   
