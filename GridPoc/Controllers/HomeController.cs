@@ -38,72 +38,72 @@ namespace GridPoc.Controllers
         {
             List<Insurance> insurances = new List<Insurance>();
             insurances.Add(new Insurance {
-                PolicyNumber = 1010457489,
+                PolicyNumber = 11111111,
                 EffectiveDate = new DateTime(2005,2,27),
                 ExpiryDate = new DateTime(2006, 2, 27),
                 ProcurementDate = new DateTime(2005,3,29),
-                NamedInsurer = "EDWARD & LISA COHEN",
-                AgencyID = 2303525,
-                PolicyType = "Loss Payee Cancellation Memo"
+                NamedInsurer = "Tata & Sons",
+                AgencyID = 2222222,
+                PolicyType = "Delayed Payment Cancellation Memo"
             });
             insurances.Add(new Insurance
             {
-                PolicyNumber = 1010457489,
+                PolicyNumber = 11111111,
                 EffectiveDate = new DateTime(2005, 2, 27),
                 ExpiryDate = new DateTime(2006, 2, 27),
                 ProcurementDate = new DateTime(2005, 3, 4),
                 NamedInsurer = "Gorga Agency",
-                AgencyID = 2303525,
-                PolicyType = "Cancellation"
+                AgencyID = 2222222,
+                PolicyType = "Cancelled"
             });
             insurances.Add(new Insurance
             {
-                PolicyNumber = 1010457489,
+                PolicyNumber = 11111111,
                 EffectiveDate = new DateTime(2005, 2, 27),
                 ExpiryDate = new DateTime(2006, 2, 27),
                 ProcurementDate = new DateTime(2005, 3, 4),
-                NamedInsurer = "EDWARD & LISA COHEN",
-                AgencyID = 2303525,
-                PolicyType = "Cancellation"
+                NamedInsurer = "Tata & Sons",
+                AgencyID = 2222222,
+                PolicyType = "Cancelled"
             });
             insurances.Add(new Insurance
             {
-                PolicyNumber = 1010457489,
+                PolicyNumber = 11111111,
                 EffectiveDate = new DateTime(2005, 2, 27),
                 ExpiryDate = new DateTime(2006, 2, 27),
                 ProcurementDate = new DateTime(2005, 1, 13),
-                NamedInsurer = "EDWARD & LISA COHEN",
-                AgencyID = 2303525,
-                PolicyType = "Renewal"
+                NamedInsurer = "Tata & Sons",
+                AgencyID = 2222222,
+                PolicyType = "Repeat Renewal"
             });
             insurances.Add(new Insurance
             {
-                PolicyNumber = 1010457489,
+                PolicyNumber = 11111111,
                 EffectiveDate = new DateTime(2005, 2, 27),
                 ExpiryDate = new DateTime(2006, 2, 27),
                 ProcurementDate = new DateTime(2004, 1, 15),
-                NamedInsurer = "EDWARD & LISA COHEN",
-                AgencyID = 2303525,
-                PolicyType = "Renewal"
+                NamedInsurer = "Tata & Sons",
+                AgencyID = 2222222,
+                PolicyType = "Repeat Renewal"
             });
             insurances.Add(new Insurance
             {
-                PolicyNumber = 1010457489,
+                PolicyNumber = 11111111,
                 EffectiveDate = new DateTime(2005, 2, 27),
                 ExpiryDate = new DateTime(2006, 2, 27),
                 ProcurementDate = new DateTime(2003, 2, 27),
-                NamedInsurer = "EDWARD & LISA COHEN",
-                AgencyID = 2303525,
-                PolicyType = "Amendment"
+                NamedInsurer = "Tata & Sons",
+                AgencyID = 2222222,
+                PolicyType = "Modified"
             });
             insurances.Add(new Insurance
             {
-                PolicyNumber = 1010457489,
+                PolicyNumber = 11111111,
                 EffectiveDate = new DateTime(2005, 2, 27),
                 ExpiryDate = new DateTime(2006, 2, 27),
                 ProcurementDate = new DateTime(2003, 1, 29),
-                NamedInsurer = "EDWARD & LISA COHEN",
-                AgencyID = 2303525,
+                NamedInsurer = "Tata & Sons",
+                AgencyID = 2222222,
                 PolicyType = "New"
             });
             return insurances;
