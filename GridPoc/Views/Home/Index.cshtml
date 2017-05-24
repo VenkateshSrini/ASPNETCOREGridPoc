@@ -5,7 +5,9 @@
 @using GridPoc.ViewModel
 @using NonFactors.Mvc.Grid
 @model IEnumerable<Insurance>
-<br/>
+<br />
+
+
 <hr/>
 @(Html
         .Grid(Model)
@@ -31,4 +33,6 @@
     )
 
  )
-   
+<center>
+    <a href="@(Url.Action("ExportIndex") + ViewContext.HttpContext.Request.QueryString)" style="color:green"><b>Export</b></a>
+</center>
